@@ -48,6 +48,10 @@ body {
   transform: scale(0.98);
 }
 
+.controls__colors .controls__color:hover {
+  transform: scale(0.97);
+}
+
 .controls .controls__colors {
   display: flex;
 }
