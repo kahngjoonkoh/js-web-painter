@@ -40,11 +40,11 @@ function onMouseMove(event) {
   }
 }
 
-function onMouseDown(event) {
+function onMouseDown() {
   painting = true;
 }
 
-function handleCanvasClick(event) {
+function handleCanvasClick() {
   if (filling) {
     ctx.fillRect(0, 0, CANVAS_SIZE, CANVAS_SIZE);
   }
@@ -90,7 +90,7 @@ if (range) {
   range.addEventListener("input", handleRangeChange);
 }
 
-function handleModeClick(event) {
+function handleModeClick() {
   if (filling === true) {
     filling = false;
     mode.innerText = "Fill";
