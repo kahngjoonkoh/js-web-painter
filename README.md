@@ -1,3 +1,3 @@
 # js-web-painter
-web canvas made with vanilla javascript
+Web canvas made with vanilla javascript.
 Available on Github Pages
